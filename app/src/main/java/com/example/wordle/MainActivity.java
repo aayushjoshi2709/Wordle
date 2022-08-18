@@ -43,23 +43,6 @@ public class MainActivity extends AppCompatActivity {
         dialog.setContentView(R.layout.alert_dialog_layout);
         // Initiate the score box object
         scoreView = (TextView) findViewById(R.id.score);
-        init();
-    }
-
-    // Used to set the rounded border style to all the text views in the grid
-    // Also calls clear data function
-    private void init(){
-        for(int i = 0; i < 5;i++) {
-            for (int j = 0; j < 5; j++) {
-                int number = (i * 5 + j) + 1;
-                TextView tv = findViewById(getResources().getIdentifier("textView" + number, "id", getPackageName()));
-                tv.setText(container[i][j] + "");
-                // Applies rounded border to the text views
-                tv.setCompoundDrawables(ContextCompat.getDrawable(getApplicationContext(),R.drawable.rounded_corner2),null,null,null);
-                tv.setTextColor(Color.WHITE);
-            }
-        }
-        // Used to clear data
         clearData();
     }
     // Used to set the data to the grid
@@ -91,10 +74,7 @@ public class MainActivity extends AppCompatActivity {
                 int number = (i * 5 + j) + 1;
                 TextView tv = findViewById(getResources().getIdentifier("textView" + number, "id", getPackageName()));
                 tv.setText(container[i][j] + "");
-                Drawable tvBackground = tv.getBackground();
-                tvBackground = DrawableCompat.wrap(tvBackground);
-                DrawableCompat.setTint(tvBackground, Color.parseColor("#ffcccc"));
-                tv.setBackground(tvBackground);
+                changeColor(tv, "#ffcccc");
             }
         }
         // Sets all the disabled key buttons to enabled state again
@@ -247,7 +227,7 @@ public class MainActivity extends AppCompatActivity {
                     // If the character entered in the textview is not present in the currentWord disable the button corresponding to character
                     // and set the color of the text view containing that character to black color ("#D1C4E9")
                     changeColor(tv, "#D1C4E9");
-                    but.setEnabled(false);
+                    changeColor(but, "#D1C4E9");
                 }
             }
         }
