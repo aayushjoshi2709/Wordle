@@ -755,9 +755,10 @@
             <Button
                 android:id="@+id/submit"
                 android:layout_width="181dp"
-                android:layout_height="70dp"
+                android:layout_height="62dp"
                 android:onClick="submit"
                 android:text="Submit"
+                android:textSize="22dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.351"
@@ -767,6 +768,7 @@
                 />
 
             <Button
+                android:textSize="22dp"
                 android:id="@+id/skip"
                 android:layout_width="67dp"
                 android:layout_height="62dp"
