@@ -97,6 +97,8 @@ public class MainActivity extends AppCompatActivity {
             container[counteri][counterj] = ' ';
             printToGrid(counteri, counterj);
         }
+        // Sets the button size back to 22 in case user hit not a word case
+        submitButton.setTextSize(22);
         // Set submit button text "NOT A WORD" to "SUBMIT" again if the user have entered wrong word previously
         submitButton.setText("SUBMIT");
         // Set submit button state to enabled if it is disabled
@@ -120,28 +122,29 @@ public class MainActivity extends AppCompatActivity {
     // Function to get button presses
     public void buttonPress(View view){
         Button submitButton = findViewById(R.id.submit);
-        // Gets the id of the button pressed
-        int id = view.getId();
-        // Stores that id for coloring the rows according to the correctness of the word
-        ids[counterj] = id;
-        // Gets the entered character from the button pressed
-        Button but = findViewById(id);
-        char c = but.getText().toString().charAt(0);
-        // If the row is not filled just append the word to the end
         if(counterj < 5){
+            // Gets the id of the button pressed
+            int id = view.getId();
+            // Stores that id for coloring the rows according to the correctness of the word
+            ids[counterj] = id;
+            // Gets the entered character from the button pressed
+            Button but = findViewById(id);
+            char c = but.getText().toString().charAt(0);
+            // If the row is not filled just append the word to the end
             container[counteri][counterj] = c;
             printToGrid(counteri, counterj);
             counterj++;
         }
         // If row is completely filled enable submit button but first check weather it is a valid word or not
         if(counterj == 5){
-
             if(isWord())
                 // If the word is valid enable submit button
                 submitButton.setEnabled(true);
-            else
+            else {
                 // Else set the submit button text to "NOT A WORD"
+                submitButton.setTextSize(20);
                 submitButton.setText("Not a Word");
+            }
         }
     }
     // Used to build a alert if user wins or looses
