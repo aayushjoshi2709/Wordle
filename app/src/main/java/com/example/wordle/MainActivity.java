@@ -205,7 +205,15 @@ public class MainActivity extends AppCompatActivity {
     private void updateScore(){
         scoreView.setText("Your Score: " + score);
     }
-
+    // Function to change color of a circular views
+    void changeColor(View view, String color){
+        // Gets the background color property for that particular textview
+        Drawable viewBackground = view.getBackground();
+        viewBackground = DrawableCompat.wrap(viewBackground);
+        // Change the color of the view and set it to given color
+        DrawableCompat.setTint(viewBackground, Color.parseColor(color));
+        view.setBackground(viewBackground);
+    }
     // Function to be executed when user presses submit button
     public void submit(View view){
         Button submitButton = findViewById(R.id.submit);
@@ -216,15 +224,14 @@ public class MainActivity extends AppCompatActivity {
             // Gets the text view having jth letter of word
             int number = (counteri * 5 + j) + 1;
             TextView tv = findViewById(getResources().getIdentifier("textView" + number, "id", getPackageName()));
-            // Gets the background color property for that particular textview
-            Drawable tvBackground = tv.getBackground();
-            tvBackground = DrawableCompat.wrap(tvBackground);
+            // Get the button having jth letter
+            Button but = findViewById(ids[j]);
             // Gets the character entered in that textview
             char c = tv.getText().toString().charAt(0);
             if(currentWord.charAt(j) == c){
                 // If the character entered in the textview is present in the currentWord and position of that character in currentWord = position of that character in current row
                 // Set the color of the text view containing that character to green color shade (#76FF03)
-                DrawableCompat.setTint(tvBackground, Color.parseColor("#76FF03"));
+                changeColor(tv, "#76FF03");
                 count++;
             }else{
                 int i = 0;
@@ -232,19 +239,17 @@ public class MainActivity extends AppCompatActivity {
                     if(currentWord.charAt(i) == c){
                         // If the character entered in the textview is present in the currentWord but the position of that character in currentWord != position of that character in current row
                         // Set the color of the text view containing that character to yellow color (#FFA000)
-                        DrawableCompat.setTint(tvBackground, Color.parseColor("#FFA000"));
+                        changeColor(tv, "#FFA000");
                         break;
                     }
                 }
                 if(i == 5) {
                     // If the character entered in the textview is not present in the currentWord disable the button corresponding to character
                     // and set the color of the text view containing that character to black color ("#D1C4E9")
-                    DrawableCompat.setTint(tvBackground, Color.parseColor("#D1C4E9"));
-                    Button but = findViewById(ids[j]);
+                    changeColor(tv, "#D1C4E9");
                     but.setEnabled(false);
                 }
             }
-            tv.setBackground(tvBackground);
         }
         // If count == 5 user wins
         if(count==5) {
