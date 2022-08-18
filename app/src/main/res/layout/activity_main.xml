@@ -17,7 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.18">
+        app:layout_constraintVertical_bias="0.248">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -31,22 +31,23 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_corner2"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
-                android:textSize="32sp"
-                android:background="@drawable/rounded_corner2"/>
+                android:textSize="32sp" />
+
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_corner2"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
-                android:textSize="32sp"
-                android:background="@drawable/rounded_corner2"/>
+                android:textSize="32sp" />
 
             <TextView
                 android:id="@+id/textView3"
@@ -54,12 +55,11 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_corner2"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
-                android:textSize="32sp"
-                android:background="@drawable/rounded_corner2"
-                />
+                android:textSize="32sp" />
 
             <TextView
                 android:id="@+id/textView4"
@@ -67,12 +67,11 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_corner2"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
-                android:textSize="32sp"
-                android:background="@drawable/rounded_corner2"
-                />
+                android:textSize="32sp" />
 
             <TextView
                 android:id="@+id/textView5"
@@ -80,12 +79,11 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_corner2"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
-                android:textSize="32sp"
-                android:background="@drawable/rounded_corner2"
-                />
+                android:textSize="32sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -101,12 +99,11 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_corner2"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
-                android:textSize="32sp"
-                android:background="@drawable/rounded_corner2"
-                />
+                android:textSize="32sp" />
 
             <TextView
                 android:id="@+id/textView7"
@@ -114,12 +111,11 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_corner2"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
-                android:textSize="32sp"
-                android:background="@drawable/rounded_corner2"
-                />
+                android:textSize="32sp" />
 
             <TextView
                 android:id="@+id/textView8"
@@ -127,12 +123,11 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_corner2"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
-                android:textSize="32sp"
-                android:background="@drawable/rounded_corner2"
-                />
+                android:textSize="32sp" />
 
             <TextView
                 android:id="@+id/textView9"
@@ -140,12 +135,11 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_corner2"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
-                android:textSize="32sp"
-                android:background="@drawable/rounded_corner2"
-                />
+                android:textSize="32sp" />
 
             <TextView
                 android:id="@+id/textView10"
@@ -153,12 +147,11 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_corner2"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
-                android:textSize="32sp"
-                android:background="@drawable/rounded_corner2"
-                />
+                android:textSize="32sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -173,12 +166,11 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_corner2"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
-                android:textSize="32sp"
-                android:background="@drawable/rounded_corner2"
-                />
+                android:textSize="32sp" />
 
             <TextView
                 android:id="@+id/textView12"
@@ -186,12 +178,11 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_corner2"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
-                android:textSize="32sp"
-                android:background="@drawable/rounded_corner2"
-                />
+                android:textSize="32sp" />
 
             <TextView
                 android:id="@+id/textView13"
@@ -199,12 +190,11 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_corner2"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
-                android:textSize="32sp"
-                android:background="@drawable/rounded_corner2"
-                />
+                android:textSize="32sp" />
 
             <TextView
                 android:id="@+id/textView14"
@@ -212,12 +202,11 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_corner2"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
-                android:textSize="32sp"
-                android:background="@drawable/rounded_corner2"
-                />
+                android:textSize="32sp" />
 
             <TextView
                 android:id="@+id/textView15"
@@ -225,12 +214,11 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_corner2"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
-                android:textSize="32sp"
-                android:background="@drawable/rounded_corner2"
-                />
+                android:textSize="32sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -245,12 +233,11 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_corner2"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
-                android:textSize="32sp"
-                android:background="@drawable/rounded_corner2"
-                />
+                android:textSize="32sp" />
 
             <TextView
                 android:id="@+id/textView17"
@@ -258,12 +245,11 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_corner2"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
-                android:textSize="32sp"
-                android:background="@drawable/rounded_corner2"
-                />
+                android:textSize="32sp" />
 
             <TextView
                 android:id="@+id/textView18"
@@ -271,12 +257,11 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_corner2"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
-                android:textSize="32sp"
-                android:background="@drawable/rounded_corner2"
-                />
+                android:textSize="32sp" />
 
             <TextView
                 android:id="@+id/textView19"
@@ -284,12 +269,11 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_corner2"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
-                android:textSize="32sp"
-                android:background="@drawable/rounded_corner2"
-                />
+                android:textSize="32sp" />
 
             <TextView
                 android:id="@+id/textView20"
@@ -297,12 +281,11 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_corner2"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
-                android:textSize="32sp"
-                android:background="@drawable/rounded_corner2"
-                />
+                android:textSize="32sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -317,44 +300,43 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_corner2"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
-                android:textSize="32sp"
-                android:background="@drawable/rounded_corner2"
-                />
+                android:textSize="32sp" />
 
             <TextView
-                android:background="@drawable/rounded_corner2"
                 android:id="@+id/textView22"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_corner2"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
                 android:textSize="32sp" />
 
             <TextView
-                android:background="@drawable/rounded_corner2"
                 android:id="@+id/textView23"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_corner2"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
                 android:textSize="32sp" />
 
             <TextView
-                android:background="@drawable/rounded_corner2"
                 android:id="@+id/textView24"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_corner2"
 
 
                 android:gravity="center_vertical|center_horizontal"
@@ -363,12 +345,12 @@
                 android:textSize="32sp" />
 
             <TextView
-                android:background="@drawable/rounded_corner2"
                 android:id="@+id/textView25"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
+                android:background="@drawable/rounded_corner2"
 
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
@@ -382,6 +364,7 @@
         android:layout_height="297dp"
         android:orientation="vertical"
         android:padding="4dp"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -396,7 +379,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/textView33"
+                android:id="@+id/button1"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
@@ -409,7 +392,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/textView27"
+                android:id="@+id/button2"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
@@ -422,7 +405,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/textView36"
+                android:id="@+id/button3"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
@@ -435,7 +418,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/textView34"
+                android:id="@+id/button4"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
@@ -448,7 +431,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/textView30"
+                android:id="@+id/button5"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
@@ -461,7 +444,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/textView28"
+                android:id="@+id/button6"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
@@ -474,7 +457,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/textView29"
+                android:id="@+id/button7"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
@@ -487,7 +470,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/textView31"
+                android:id="@+id/button8"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
@@ -500,7 +483,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/textView32"
+                android:id="@+id/button9"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
@@ -513,7 +496,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/textView35"
+                android:id="@+id/button10"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
@@ -535,7 +518,7 @@
             android:paddingRight="12dp">
 
             <Button
-                android:id="@+id/Button37"
+                android:id="@+id/button11"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
@@ -548,7 +531,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/Button38"
+                android:id="@+id/button12"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
@@ -561,7 +544,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/Button45"
+                android:id="@+id/button13"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
@@ -574,7 +557,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/Button44"
+                android:id="@+id/button14"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
@@ -587,7 +570,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/Button42"
+                android:id="@+id/button15"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
@@ -600,7 +583,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/Button41"
+                android:id="@+id/button16"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
@@ -613,7 +596,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/Button40"
+                android:id="@+id/button17"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
@@ -626,7 +609,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/Button59"
+                android:id="@+id/button18"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
@@ -639,7 +622,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/Button43"
+                android:id="@+id/button19"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
@@ -660,7 +643,7 @@
             android:paddingLeft="36dp">
 
             <Button
-                android:id="@+id/Button46"
+                android:id="@+id/button20"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
@@ -673,7 +656,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/Button52"
+                android:id="@+id/button21"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
@@ -686,7 +669,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/Button53"
+                android:id="@+id/button22"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
@@ -699,7 +682,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/Button99"
+                android:id="@+id/button23"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
@@ -712,7 +695,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/Button78"
+                android:id="@+id/button24"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
@@ -725,7 +708,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/Button88"
+                android:id="@+id/button25"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
@@ -738,7 +721,7 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/Button98"
+                android:id="@+id/button26"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
@@ -751,6 +734,7 @@
                 android:textSize="25sp" />
 
             <Button
+                android:id="@+id/bksp"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
@@ -778,12 +762,15 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.351"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/rounded_corner"
+                />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/skip"
                 android:layout_width="67dp"
                 android:layout_height="62dp"
+                android:background="@drawable/rounded_corner"
                 android:onClick="skip"
                 android:text=">>"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -799,13 +786,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Score : 0"
+        android:text="Your Score : 0"
         android:textSize="30dp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.396" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

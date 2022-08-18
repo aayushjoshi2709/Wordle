@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/status"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/a"
+        android:layout_width="365dp"
+        android:layout_height="365dp"
+        android:gravity="center"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499">
+
+        <TextView
+            android:id="@+id/text_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/a"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:text="PLAY AGAIN ?"
+            android:textColor="#ff000000"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.539"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView"
+            app:layout_constraintVertical_bias="0.717" />
+
+        <Button
+            android:id="@+id/dialog_button_no"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_dialog"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded_corner"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="No"
+            android:textColor="#ffffffff"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.737"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.902" />
+
+        <Button
+            android:id="@+id/dialog_button_yes"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_dialog"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded_corner"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Yes"
+            android:textColor="#ffffffff"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.329"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.902"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="216dp"
+            android:background="@android:color/holo_green_light"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:paddingLeft="18dp"
+
+            android:paddingRight="18dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.928">
+
+            <TextView
+                android:id="@+id/textView_dialog_1"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_corner3"
+                android:gravity="center_vertical|center_horizontal"
+                android:text=""
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/textView_dialog_2"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_corner3"
+                android:gravity="center_vertical|center_horizontal"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/textView_dialog_3"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_corner3"
+                android:gravity="center_vertical|center_horizontal"
+                android:textColor="@color/black"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/textView_dialog_4"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:background="@drawable/rounded_corner3"
+                android:gravity="center_vertical|center_horizontal"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/textView_dialog_5"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:textColor="@color/black"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_corner3"
+                android:gravity="center_vertical|center_horizontal"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="32sp" />
+        </LinearLayout>
+
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/dialog_status"
+            android:layout_width="260dp"
+            android:layout_height="64dp"
+            android:text="WIN/LOSE"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.137" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
