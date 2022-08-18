@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -31,7 +30,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_corner2"
+                android:background="@drawable/textview_rounded_corner"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
@@ -43,7 +42,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_corner2"
+                android:background="@drawable/textview_rounded_corner"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
@@ -55,7 +54,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_corner2"
+                android:background="@drawable/textview_rounded_corner"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
@@ -67,7 +66,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_corner2"
+                android:background="@drawable/textview_rounded_corner"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
@@ -79,7 +78,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_corner2"
+                android:background="@drawable/textview_rounded_corner"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
@@ -99,7 +98,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_corner2"
+                android:background="@drawable/textview_rounded_corner"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
@@ -111,7 +110,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_corner2"
+                android:background="@drawable/textview_rounded_corner"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
@@ -123,7 +122,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_corner2"
+                android:background="@drawable/textview_rounded_corner"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
@@ -135,7 +134,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_corner2"
+                android:background="@drawable/textview_rounded_corner"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
@@ -147,7 +146,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_corner2"
+                android:background="@drawable/textview_rounded_corner"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
@@ -166,7 +165,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_corner2"
+                android:background="@drawable/textview_rounded_corner"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
@@ -178,7 +177,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_corner2"
+                android:background="@drawable/textview_rounded_corner"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
@@ -190,7 +189,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_corner2"
+                android:background="@drawable/textview_rounded_corner"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
@@ -202,7 +201,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_corner2"
+                android:background="@drawable/textview_rounded_corner"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
@@ -214,7 +213,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_corner2"
+                android:background="@drawable/textview_rounded_corner"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
@@ -233,7 +232,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_corner2"
+                android:background="@drawable/textview_rounded_corner"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
@@ -245,7 +244,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_corner2"
+                android:background="@drawable/textview_rounded_corner"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
@@ -257,7 +256,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_corner2"
+                android:background="@drawable/textview_rounded_corner"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
@@ -269,7 +268,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_corner2"
+                android:background="@drawable/textview_rounded_corner"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
@@ -281,7 +280,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_corner2"
+                android:background="@drawable/textview_rounded_corner"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
@@ -300,7 +299,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_corner2"
+                android:background="@drawable/textview_rounded_corner"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
@@ -312,7 +311,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_corner2"
+                android:background="@drawable/textview_rounded_corner"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
@@ -324,7 +323,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_corner2"
+                android:background="@drawable/textview_rounded_corner"
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
                 android:textAlignment="center"
@@ -336,7 +335,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_corner2"
+                android:background="@drawable/textview_rounded_corner"
 
 
                 android:gravity="center_vertical|center_horizontal"
@@ -350,7 +349,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="1dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_corner2"
+                android:background="@drawable/textview_rounded_corner"
 
                 android:gravity="center_vertical|center_horizontal"
                 android:text=""
@@ -378,134 +377,163 @@
             android:layout_weight="1"
             android:orientation="horizontal">
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button1"
+
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_rounded_corner"
+                android:backgroundTint="?android:colorPrimary"
                 android:gravity="center_vertical|center_horizontal"
                 android:onClick="buttonPress"
                 android:padding="0dp"
                 android:text="Q"
-                android:background="@drawable/rounded_corner"
+                android:textColor="?android:textColorPrimaryInverse"
                 android:textSize="25sp" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button2"
+
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_rounded_corner"
+                android:backgroundTint="?android:colorPrimary"
                 android:gravity="center_vertical|center_horizontal"
                 android:onClick="buttonPress"
                 android:padding="0dp"
                 android:text="W"
-                android:background="@drawable/rounded_corner"
+                android:textColor="?android:textColorPrimaryInverse"
                 android:textSize="25sp" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button3"
+
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_rounded_corner"
+                android:backgroundTint="?android:colorPrimary"
                 android:gravity="center_vertical|center_horizontal"
                 android:onClick="buttonPress"
                 android:padding="0dp"
                 android:text="E"
-                android:background="@drawable/rounded_corner"
+                android:textColor="?android:textColorPrimaryInverse"
                 android:textSize="25sp" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button4"
+
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_rounded_corner"
+                android:backgroundTint="?android:colorPrimary"
                 android:gravity="center_vertical|center_horizontal"
                 android:onClick="buttonPress"
                 android:padding="0dp"
                 android:text="R"
-                android:background="@drawable/rounded_corner"
+                android:textColor="?android:textColorPrimaryInverse"
                 android:textSize="25sp" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button5"
+
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_rounded_corner"
+                android:backgroundTint="?android:colorPrimary"
                 android:gravity="center_vertical|center_horizontal"
                 android:onClick="buttonPress"
                 android:padding="0dp"
                 android:text="T"
-                android:background="@drawable/rounded_corner"
+                android:textColor="?android:textColorPrimaryInverse"
                 android:textSize="25sp" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button6"
+
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_rounded_corner"
+                android:backgroundTint="?android:colorPrimary"
                 android:gravity="center_vertical|center_horizontal"
                 android:onClick="buttonPress"
                 android:padding="0dp"
                 android:text="Y"
-                android:background="@drawable/rounded_corner"
+                android:textColor="?android:textColorPrimaryInverse"
                 android:textSize="25sp" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button7"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_rounded_corner"
+                android:backgroundTint="?android:colorPrimary"
                 android:gravity="center_vertical|center_horizontal"
                 android:onClick="buttonPress"
                 android:padding="0dp"
                 android:text="U"
-                android:background="@drawable/rounded_corner"
+                android:textColor="?android:textColorPrimaryInverse"
                 android:textSize="25sp" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button8"
+
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_rounded_corner"
+                android:backgroundTint="?android:colorPrimary"
                 android:gravity="center_vertical|center_horizontal"
                 android:onClick="buttonPress"
                 android:padding="0dp"
                 android:text="I"
-                android:background="@drawable/rounded_corner"
+                android:textColor="?android:textColorPrimaryInverse"
                 android:textSize="25sp" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button9"
+
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_rounded_corner"
+                android:backgroundTint="?android:colorPrimary"
                 android:gravity="center_vertical|center_horizontal"
                 android:onClick="buttonPress"
                 android:padding="0dp"
                 android:text="O"
-                android:background="@drawable/rounded_corner"
+                android:textColor="?android:textColorPrimaryInverse"
                 android:textSize="25sp" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button10"
+
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_rounded_corner"
+                android:backgroundTint="?android:colorPrimary"
                 android:gravity="center_vertical|center_horizontal"
                 android:onClick="buttonPress"
                 android:padding="0dp"
                 android:text="P"
-                android:background="@drawable/rounded_corner"
+                android:textColor="?android:textColorPrimaryInverse"
                 android:textSize="25sp" />
         </LinearLayout>
 
@@ -517,121 +545,148 @@
             android:paddingLeft="12dp"
             android:paddingRight="12dp">
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button11"
+
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_rounded_corner"
+                android:backgroundTint="?android:colorPrimary"
                 android:gravity="center_vertical|center_horizontal"
                 android:onClick="buttonPress"
                 android:padding="0dp"
                 android:text="A"
-                android:background="@drawable/rounded_corner"
+                android:textColor="?android:textColorPrimaryInverse"
                 android:textSize="25sp" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button12"
+
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_rounded_corner"
+                android:backgroundTint="?android:colorPrimary"
                 android:gravity="center_vertical|center_horizontal"
                 android:onClick="buttonPress"
                 android:padding="0dp"
                 android:text="S"
-                android:background="@drawable/rounded_corner"
+                android:textColor="?android:textColorPrimaryInverse"
                 android:textSize="25sp" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button13"
+
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_rounded_corner"
+                android:backgroundTint="?android:colorPrimary"
                 android:gravity="center_vertical|center_horizontal"
                 android:onClick="buttonPress"
                 android:padding="0dp"
                 android:text="D"
-                android:background="@drawable/rounded_corner"
+                android:textColor="?android:textColorPrimaryInverse"
                 android:textSize="25sp" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button14"
+
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_rounded_corner"
+                android:backgroundTint="?android:colorPrimary"
                 android:gravity="center_vertical|center_horizontal"
                 android:onClick="buttonPress"
                 android:padding="0dp"
                 android:text="F"
-                android:background="@drawable/rounded_corner"
+                android:textColor="?android:textColorPrimaryInverse"
                 android:textSize="25sp" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button15"
+
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_rounded_corner"
+                android:backgroundTint="?android:colorPrimary"
                 android:gravity="center_vertical|center_horizontal"
                 android:onClick="buttonPress"
                 android:padding="0dp"
                 android:text="G"
-                android:background="@drawable/rounded_corner"
+                android:textColor="?android:textColorPrimaryInverse"
                 android:textSize="25sp" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button16"
+
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_rounded_corner"
+                android:backgroundTint="?android:colorPrimary"
                 android:gravity="center_vertical|center_horizontal"
                 android:onClick="buttonPress"
                 android:padding="0dp"
                 android:text="H"
-                android:background="@drawable/rounded_corner"
+                android:textColor="?android:textColorPrimaryInverse"
                 android:textSize="25sp" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button17"
+
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_rounded_corner"
+                android:backgroundTint="?android:colorPrimary"
                 android:gravity="center_vertical|center_horizontal"
                 android:onClick="buttonPress"
                 android:padding="0dp"
                 android:text="J"
-                android:background="@drawable/rounded_corner"
+                android:textColor="?android:textColorPrimaryInverse"
                 android:textSize="25sp" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button18"
+
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_rounded_corner"
+                android:backgroundTint="?android:colorPrimary"
                 android:gravity="center_vertical|center_horizontal"
                 android:onClick="buttonPress"
                 android:padding="0dp"
                 android:text="K"
-                android:background="@drawable/rounded_corner"
+                android:textColor="?android:textColorPrimaryInverse"
                 android:textSize="25sp" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button19"
+
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_rounded_corner"
+                android:backgroundTint="?android:colorPrimary"
                 android:gravity="center_vertical|center_horizontal"
                 android:onClick="buttonPress"
                 android:padding="0dp"
                 android:text="L"
-                android:background="@drawable/rounded_corner"
+                android:textColor="?android:textColorPrimaryInverse"
                 android:textSize="25sp" />
         </LinearLayout>
 
@@ -642,95 +697,116 @@
             android:orientation="horizontal"
             android:paddingLeft="36dp">
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button20"
+
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_rounded_corner"
+                android:backgroundTint="?android:colorPrimary"
                 android:gravity="center_vertical|center_horizontal"
                 android:onClick="buttonPress"
                 android:padding="0dp"
                 android:text="Z"
-                android:background="@drawable/rounded_corner"
+                android:textColor="?android:textColorPrimaryInverse"
                 android:textSize="25sp" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button21"
+
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_rounded_corner"
+                android:backgroundTint="?android:colorPrimary"
                 android:gravity="center_vertical|center_horizontal"
                 android:onClick="buttonPress"
                 android:padding="0dp"
                 android:text="X"
-                android:background="@drawable/rounded_corner"
+                android:textColor="?android:textColorPrimaryInverse"
                 android:textSize="25sp" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button22"
+
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_rounded_corner"
+                android:backgroundTint="?android:colorPrimary"
                 android:gravity="center_vertical|center_horizontal"
                 android:onClick="buttonPress"
                 android:padding="0dp"
                 android:text="C"
-                android:background="@drawable/rounded_corner"
+                android:textColor="?android:textColorPrimaryInverse"
                 android:textSize="25sp" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button23"
+
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_rounded_corner"
+                android:backgroundTint="?android:colorPrimary"
                 android:gravity="center_vertical|center_horizontal"
                 android:onClick="buttonPress"
                 android:padding="0dp"
                 android:text="V"
-                android:background="@drawable/rounded_corner"
+                android:textColor="?android:textColorPrimaryInverse"
                 android:textSize="25sp" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button24"
+
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_rounded_corner"
+                android:backgroundTint="?android:colorPrimary"
                 android:gravity="center_vertical|center_horizontal"
                 android:onClick="buttonPress"
                 android:padding="0dp"
                 android:text="B"
-                android:background="@drawable/rounded_corner"
+                android:textColor="?android:textColorPrimaryInverse"
                 android:textSize="25sp" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button25"
+
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_rounded_corner"
+                android:backgroundTint="?android:colorPrimary"
                 android:gravity="center_vertical|center_horizontal"
                 android:onClick="buttonPress"
                 android:padding="0dp"
                 android:text="N"
-                android:background="@drawable/rounded_corner"
+                android:textColor="?android:textColorPrimaryInverse"
                 android:textSize="25sp" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button26"
+
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_rounded_corner"
+                android:backgroundTint="?android:colorPrimary"
                 android:gravity="center_vertical|center_horizontal"
                 android:onClick="buttonPress"
                 android:padding="0dp"
                 android:text="M"
-                android:background="@drawable/rounded_corner"
+                android:textColor="?android:textColorPrimaryInverse"
                 android:textSize="25sp" />
 
             <Button
@@ -739,9 +815,10 @@
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_rounded_corner"
+                android:backgroundTint="?android:colorPrimary"
                 android:onClick="backspace"
                 android:padding="0dp"
-                android:background="@drawable/rounded_corner"
                 android:textSize="25sp"
                 app:icon="@drawable/backspace" />
         </LinearLayout>
@@ -756,6 +833,8 @@
                 android:id="@+id/submit"
                 android:layout_width="181dp"
                 android:layout_height="62dp"
+                android:background="@drawable/button_rounded_corner"
+                android:backgroundTint="?android:colorPrimary"
                 android:onClick="submit"
                 android:text="Submit"
                 android:textSize="22dp"
@@ -763,18 +842,17 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.351"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                android:background="@drawable/rounded_corner"
-                />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <Button
-                android:textSize="22dp"
                 android:id="@+id/skip"
                 android:layout_width="67dp"
                 android:layout_height="62dp"
-                android:background="@drawable/rounded_corner"
+                android:background="@drawable/button_rounded_corner"
+                android:backgroundTint="?android:colorPrimary"
                 android:onClick="skip"
                 android:text=">>"
+                android:textSize="22dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.168"

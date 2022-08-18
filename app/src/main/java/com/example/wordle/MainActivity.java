@@ -3,6 +3,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 import androidx.core.graphics.drawable.DrawableCompat;
 import android.app.Dialog;
+import android.content.res.Configuration;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -77,10 +78,14 @@ public class MainActivity extends AppCompatActivity {
                 changeColor(tv, "#ffcccc");
             }
         }
-        // Sets all the disabled key buttons to enabled state again
+        // Sets the color of the buttons back to original
         for(int i = 1; i <= 26;i++) {
             Button btn = (Button) findViewById(getResources().getIdentifier("button" + i, "id", getPackageName()));
-            btn.setEnabled(true);
+            // Checks if the dark mode is ON / OFF
+            if((getApplicationContext().getResources().getConfiguration().uiMode & Configuration.UI_MODE_NIGHT_MASK) == Configuration.UI_MODE_NIGHT_YES)
+                changeColor(btn, "#FFBB86FC");
+            else
+                changeColor(btn, "#FF6200EE");
         }
     }
     // Code for the working of the backspace button
@@ -205,13 +210,14 @@ public class MainActivity extends AppCompatActivity {
             int number = (counteri * 5 + j) + 1;
             TextView tv = findViewById(getResources().getIdentifier("textView" + number, "id", getPackageName()));
             // Get the button having jth letter
-            Button but = findViewById(ids[j]);
+            Button but = (Button) findViewById(ids[j]);
             // Gets the character entered in that textview
             char c = tv.getText().toString().charAt(0);
             if(currentWord.charAt(j) == c){
                 // If the character entered in the textview is present in the currentWord and position of that character in currentWord = position of that character in current row
                 // Set the color of the text view containing that character to green color shade (#76FF03)
                 changeColor(tv, "#76FF03");
+                changeColor(but, "#76FF03");
                 count++;
             }else{
                 int i = 0;
@@ -220,6 +226,7 @@ public class MainActivity extends AppCompatActivity {
                         // If the character entered in the textview is present in the currentWord but the position of that character in currentWord != position of that character in current row
                         // Set the color of the text view containing that character to yellow color (#FFA000)
                         changeColor(tv, "#FFA000");
+                        changeColor(but, "#FFA000");
                         break;
                     }
                 }

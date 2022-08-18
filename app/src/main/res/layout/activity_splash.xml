@@ -26,11 +26,10 @@
         android:id="@+id/textView37"
         android:layout_width="131dp"
         android:layout_height="119dp"
-        android:background="@drawable/icon"
+        android:background="@drawable/logo"
         android:text="W"
         android:textAlignment="center"
         android:textColor="@color/white"
-
         android:textSize="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
