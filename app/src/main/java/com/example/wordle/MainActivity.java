@@ -1,8 +1,8 @@
 package com.example.wordle;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.ContextCompat;
 import androidx.core.graphics.drawable.DrawableCompat;
 import android.app.Dialog;
+import android.content.Context;
 import android.content.res.Configuration;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
@@ -12,6 +12,10 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -24,13 +28,15 @@ public class MainActivity extends AppCompatActivity {
     private String currentWord;
     // Counter used to keep track of current row and column
     // Score represents user score
-    private int counteri = 0, counterj = 0, score = 0;
+    private int counterI = 0, counterJ = 0, score = 0;
     // Dialog used for customised dialog boxes
     private Dialog dialog;
     // Textview to see user score
     private TextView scoreView;
     // Stores the ids of the key pressed to fill current row
     private int[] ids = new int[5];
+    // variable to store the high score
+    private int highScore;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -42,21 +48,63 @@ public class MainActivity extends AppCompatActivity {
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         dialog.setCancelable(false);
         dialog.setContentView(R.layout.alert_dialog_layout);
-        // Initiate the score box object
         scoreView = (TextView) findViewById(R.id.score);
+        // get the previous high score from a file (if exists)
+        getHighScore();
         clearData();
     }
     // Used to set the data to the grid
     private void printToGrid(int i, int j){
         int number = (i * 5 + j) + 1;
         TextView tv = findViewById(getResources().getIdentifier("textView" + number, "id", getPackageName()));
-        tv.setText(container[counteri][j] + "");
+        tv.setText(container[counterI][j] + "");
+    }
+    // Reads the high score of a user from a file
+    private void getHighScore(){
+        System.out.println("Hi");
+        try{
+            // Opens the high score file for reading
+            FileInputStream fin = openFileInput("score.txt");
+            int c;
+            String temp="";
+            // Gets the characters from the file
+            while( (c = fin.read()) != -1){
+                temp = temp + Character.toString((char)c);
+            }
+            // Convert these characters to high score
+            highScore = Integer.parseInt(temp);
+            fin.close();
+        }catch(FileNotFoundException e){
+            // If file not found sets the high score to 0
+            setHighScore(0);
+        }catch(Exception e){
+            System.out.println("File Not read");
+        }
+    }
+    // Writes the high score of the user to a file for later use.
+    private void setHighScore(int score){
+        try {
+            // Opens the high score file for writing text
+            FileOutputStream fOut = openFileOutput("score.txt", Context.MODE_PRIVATE);
+            // Stores the score in the file
+            fOut.write((score + "").getBytes());
+            // Closes the opened file
+            fOut.close();
+        }catch(Exception f){
+            System.out.println("Unable to write to the file");
+        }
+        highScore = score;
+        TextView highScoreTextView = (TextView) findViewById(R.id.highScore);
+        highScoreTextView.setText("High Score: " + highScore);
     }
     // Clears all the field for a new game
     private void clearData(){
         // Sets i, j to 0
-        counteri = 0;
-        counterj = 0;
+        counterI = 0;
+        counterJ = 0;
+        // Sets the high score to the text view
+        TextView highScoreTextView = (TextView) findViewById(R.id.highScore);
+        highScoreTextView.setText("High Score: " + highScore);
         // Chooses a random word which user will try to guess When playing
         int randomNumber = (int)Math.floor(Math.random()*(arr.size()-0+1)+0);
         currentWord = arr.get(randomNumber).toUpperCase();
@@ -92,10 +140,10 @@ public class MainActivity extends AppCompatActivity {
     public void backspace(View view){
         Button submitButton = findViewById(R.id.submit);
         // Prevent backspace action when no characters in row
-        if(counterj != 0){
-            counterj--;
-            container[counteri][counterj] = ' ';
-            printToGrid(counteri, counterj);
+        if(counterJ != 0){
+            counterJ--;
+            container[counterI][counterJ] = ' ';
+            printToGrid(counterI, counterJ);
         }
         // Sets the button size back to 22 in case user hit not a word case
         submitButton.setTextSize(22);
@@ -113,7 +161,7 @@ public class MainActivity extends AppCompatActivity {
     private boolean isWord(){
         String s ="";
         for(int j = 0; j < 5;j++)
-            s = s + (container[counteri][j] +"");
+            s = s + (container[counterI][j] +"");
         if(arr.contains(s.toLowerCase()))
             return true;
         else
@@ -122,21 +170,21 @@ public class MainActivity extends AppCompatActivity {
     // Function to get button presses
     public void buttonPress(View view){
         Button submitButton = findViewById(R.id.submit);
-        if(counterj < 5){
+        if(counterJ < 5){
             // Gets the id of the button pressed
             int id = view.getId();
             // Stores that id for coloring the rows according to the correctness of the word
-            ids[counterj] = id;
+            ids[counterJ] = id;
             // Gets the entered character from the button pressed
             Button but = findViewById(id);
             char c = but.getText().toString().charAt(0);
             // If the row is not filled just append the word to the end
-            container[counteri][counterj] = c;
-            printToGrid(counteri, counterj);
-            counterj++;
+            container[counterI][counterJ] = c;
+            printToGrid(counterI, counterJ);
+            counterJ++;
         }
         // If row is completely filled enable submit button but first check weather it is a valid word or not
-        if(counterj == 5){
+        if(counterJ == 5){
             if(isWord())
                 // If the word is valid enable submit button
                 submitButton.setEnabled(true);
@@ -192,6 +240,8 @@ public class MainActivity extends AppCompatActivity {
     // Function used to update the score if user wins
     private void updateScore(){
         scoreView.setText("Your Score: " + score);
+        if(score > highScore)
+            setHighScore(score);
     }
     // Function to change color of a circular views
     void changeColor(View view, String color){
@@ -210,7 +260,7 @@ public class MainActivity extends AppCompatActivity {
         // Checks the user provided word for correctness
         for(int j = 0; j < 5;j++) {
             // Gets the text view having jth letter of word
-            int number = (counteri * 5 + j) + 1;
+            int number = (counterI * 5 + j) + 1;
             TextView tv = findViewById(getResources().getIdentifier("textView" + number, "id", getPackageName()));
             // Get the button having jth letter
             Button but = (Button) findViewById(ids[j]);
@@ -250,11 +300,14 @@ public class MainActivity extends AppCompatActivity {
             updateScore();
         }else{
             // Sets the counters for taking input in the next row and column
-            counteri++;
-            counterj = 0;
+            counterI++;
+            counterJ = 0;
             // If count != 5 and the grid is filled user loses
-            if(counteri == 5)
+            if(counterI == 5) {
+                score = 0;
+                updateScore();
                 buildAlert("You Lose", false);
+            }
             // Sets the submit button to disabled state until user enter a valid word in next Row
             submitButton.setEnabled(false);
         }
